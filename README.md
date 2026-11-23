@@ -35,14 +35,11 @@ All findings are associations, not proven causes. See the limitations in the man
 ```
 .
 ├── README.md
-├── sql/
-│   └── Keren_Oyem_Analysis_Report.sql        # one organised script, Parts 0 to 7
-├── dashboard/
-│   └── Keren_Oyem_Analysis_Dashboard.pbix     # Power BI report (3 pages)
-├── reports/
-│   └── Keren_Oyem_Management_Briefing.pdf     # concise management briefing
 └── Files/
-    └── Dashboard & Modal View/               # dashboard and model view screenshots
+    ├── Keren_Oyem_Analysis_Report.sql
+    ├── Keren_Oyem_Analysis_Dashboard.pbix
+    ├── Keren_Oyem_Management_Briefing.pdf
+    └── Dashboard & Modal View/# dashboard and model view screenshots
 ```
 
 > The source CSV files are not included in this repository.
