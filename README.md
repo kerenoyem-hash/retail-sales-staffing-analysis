@@ -4,7 +4,7 @@
 
 An end-to-end analytics project: seven raw CSV tables are validated, cleaned and reconciled in SQL Server, shaped into dashboard-ready tables, and presented in a three-page Power BI dashboard with a short management briefing.
 
-![Sales dashboard page](images/01_sales.png)
+![Sales dashboard page](Files/Dashboard%20%26%20Modal%20View/01_sales.png)
 
 ## Business questions
 
@@ -41,7 +41,8 @@ All findings are associations, not proven causes. See the limitations in the man
 │   └── Keren_Oyem_Analysis_Dashboard.pbix     # Power BI report (3 pages)
 ├── reports/
 │   └── Keren_Oyem_Management_Briefing.pdf     # concise management briefing
-└── images/                                    # screenshots used in this README
+└── Files/
+    └── Dashboard & Modal View/               # dashboard and model view screenshots
 ```
 
 > The source CSV files are not included in this repository.
@@ -97,13 +98,13 @@ Power BI imports 10 mart objects and uses 13 DAX measures.
 | Staffing and demand | Labour cost vs sales per hour, weekday-by-hour demand, staffing coverage vs footfall |
 | Absence, overtime and conversion | Absence vs overtime, conversion index against peers, investigation shortlist |
 
-![Staffing and demand](images/02_staffing_and_demand.png)
-![Absence, overtime and conversion](images/03_absence_overtime_conversion.png)
+![Staffing and demand](Files/Dashboard%20%26%20Modal%20View/02_staffing_and_demand.png)
+![Absence, overtime and conversion](Files/Dashboard%20%26%20Modal%20View/03_absence_overtime_conversion.png)
 
 <details>
 <summary>Power BI model view</summary>
 
-![Model view](images/model_view.png)
+![Model view](Files/Dashboard%20%26%20Modal%20View/model_view.png)
 
 </details>
 
